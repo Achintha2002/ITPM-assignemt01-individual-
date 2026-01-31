@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+test-results.csv
+*.zip
+*.xlsx
+IT23827080/
+IT23827080_v2.xlsx
+IT23827080_final.xlsx

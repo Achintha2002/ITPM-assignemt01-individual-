@@ -1,0 +1,308 @@
+[
+  {
+    "id": "Pos_Fun_02",
+    "description": "Simple sentence: I want rice",
+    "length": "S",
+    "input": "mata bath oonee.",
+    "expected": "මට බත් ඕනේ.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Sentence structures - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_01",
+    "description": "Simple sentence: I go home",
+    "length": "S",
+    "input": "mama gedhara yanavaa.",
+    "expected": "මම ගෙදර යනවා.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Sentence structures - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_04",
+    "description": "Complex sentence: Condition",
+    "length": "M",
+    "input": "oya enavaanam mama balan innavaa.",
+    "expected": "ඔය එනවානම් මම බලන් ඉන්නවා.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Sentence structures - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_06",
+    "description": "Command: Come immediately",
+    "length": "S",
+    "input": "vahaama enna.",
+    "expected": "වහාම එන්න.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Interrogative/Imperative - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_03",
+    "description": "Compound sentence: Rain and home",
+    "length": "M",
+    "input": "mama gedhara yanavaa, haebaeyi vahina nisaa dhaenma yannee naee.",
+    "expected": "මම ගෙදර යනවා, හැබැයි වහින නිසා දැන්ම යන්නේ නෑ.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Sentence structures - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_05",
+    "description": "Question: How are you?",
+    "length": "S",
+    "input": "oyaata kohomadha?",
+    "expected": "ඔයාට කොහොමද?",
+    "justification": "Accuracy validation",
+    "coveredBy": "Interrogative/Imperative - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_07",
+    "description": "Positive: I do that",
+    "length": "S",
+    "input": "mama ehema karanavaa.",
+    "expected": "මම එහෙම කරනවා.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Positive/Negative - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_09",
+    "description": "Greeting: Ayubowan",
+    "length": "S",
+    "input": "aayuboovan!",
+    "expected": "ආයුබෝවන්!",
+    "justification": "Accuracy validation",
+    "coveredBy": "Daily Usage - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_08",
+    "description": "Negative: I do not do that",
+    "length": "S",
+    "input": "mama ehema karannee naehae.",
+    "expected": "මම එහෙම කරන්නේ නැහැ.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Positive/Negative - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_10",
+    "description": "Request: Can you help?",
+    "length": "M",
+    "input": "mata udhavvak karanna puLuvandha?",
+    "expected": "මට උදව්වක් කරන්න පුළුවන්ද?",
+    "justification": "Accuracy validation",
+    "coveredBy": "Daily Usage - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_11",
+    "description": "Response: Okay I will do",
+    "length": "S",
+    "input": "hari, mama karannam.",
+    "expected": "හරි, මම කරන්නම්.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Daily Usage - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_12",
+    "description": "Polite: Sorry",
+    "length": "M",
+    "input": "samaavenna, eeka athvaeradhiimak.",
+    "expected": "සමාවෙන්න, ඒක අත්වැරදීමක්.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Polite/Informal - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_13",
+    "description": "Informal: Give that",
+    "length": "S",
+    "input": "eeyi, ooka dhiyan.",
+    "expected": "එයි, ඕක දියන්.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Polite/Informal - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_14",
+    "description": "Expression: Sleepy",
+    "length": "S",
+    "input": "mata nidhimathayi.",
+    "expected": "මට නිදිමතයි.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Daily Usage - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_15",
+    "description": "Phrase: Just wait",
+    "length": "S",
+    "input": "poddak inna",
+    "expected": "පොඩ්ඩක් ඉන්න",
+    "justification": "Accuracy validation",
+    "coveredBy": "Word Combinations - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_17",
+    "description": "Repeated: OK OK",
+    "length": "S",
+    "input": "hari hari",
+    "expected": "හරි හරි",
+    "justification": "Accuracy validation",
+    "coveredBy": "Word Combinations - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_16",
+    "description": "Spacing: I want bread",
+    "length": "S",
+    "input": "mata paan kanna oonee.",
+    "expected": "මට පාන් කන්න ඕනේ.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Word Combinations - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_18",
+    "description": "Past: Went home",
+    "length": "S",
+    "input": "mama iiyee gedhara giyaa.",
+    "expected": "මම ඊයේ ගෙදර ගියා.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Grammar - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_19",
+    "description": "Present: Working now",
+    "length": "S",
+    "input": "mama dhaen vaeda karanavaa.",
+    "expected": "මම දැන් වැඩ කරනවා.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Grammar - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_20",
+    "description": "Future: Will come tomorrow",
+    "length": "S",
+    "input": "mama heta enavaa.",
+    "expected": "මම හෙට එනවා.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Grammar - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_21",
+    "description": "Singular: Is he/she coming?",
+    "length": "S",
+    "input": "eyaa enavadha?",
+    "expected": "එයා එනවද?",
+    "justification": "Accuracy validation",
+    "coveredBy": "Grammar - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_22",
+    "description": "Plural: Let us go",
+    "length": "S",
+    "input": "api yamu.",
+    "expected": "අපි යමු.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Grammar - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_23",
+    "description": "Polite Request: Can you send?",
+    "length": "S",
+    "input": "puLuvannam mata eeka evanna.",
+    "expected": "පුළුවන්නම් මට ඒක එවන්න.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Grammar - Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_24",
+    "description": "Direct Request: Give it",
+    "length": "S",
+    "input": "eeka dhenna.",
+    "expected": "ඒක දෙන්න.",
+    "justification": "Accuracy validation",
+    "coveredBy": "Grammar - Accuracy validation"
+  },
+  {
+    "id": "Neg_Fun_01",
+    "description": "Missing Spaces: mamagedharayanavaa",
+    "length": "S",
+    "input": "mamagedharayanavaa",
+    "expected": "මමගෙදරයනවා",
+    "justification": "Robustness validation",
+    "coveredBy": "Robustness - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_02",
+    "description": "Mixed English: WiFi",
+    "length": "S",
+    "input": "mata WiFi password eka dhenna.",
+    "expected": "මට WiFi password එක දෙන්න.",
+    "justification": "Robustness validation",
+    "coveredBy": "Mixed Language - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_04",
+    "description": "Punctuation heavy",
+    "length": "S",
+    "input": "!! ?? \"hello\" ...",
+    "expected": "SHOULD_FAIL_PUNCTUATION",
+    "justification": "Robustness validation",
+    "coveredBy": "Punctuation - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_05",
+    "description": "Currency: Rs. 5000",
+    "length": "S",
+    "input": "Rs. 5343",
+    "expected": "SHOULD_FAIL_CURRENCY",
+    "justification": "Robustness validation",
+    "coveredBy": "Numeric - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_07",
+    "description": "Abbreviation: NIC",
+    "length": "S",
+    "input": "magee NIC eka nathi unaa.",
+    "expected": "මගේ NIC එක නැති වුනා.",
+    "justification": "Robustness validation",
+    "coveredBy": "Abbreviations - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_06",
+    "description": "Slang: bQQ",
+    "length": "M",
+    "input": "adoo vaedak baaragaththaanam eeka hariyata karapanko bQQ.",
+    "expected": "අඩෝ වැඩක් බාරගත්තනම් ඒක හරියට කරපන්කො bQQ.",
+    "justification": "Robustness validation",
+    "coveredBy": "Slang - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_08",
+    "description": "Line Breaks",
+    "length": "M",
+    "input": "mama gedhara yanavaa.\noyaa enavadha maath ekka yanna?",
+    "expected": "මම ගෙදර යනවා.\nඔයා එනවද මාත් එක්ක යන්න?",
+    "justification": "Robustness validation",
+    "coveredBy": "Formatting - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_09",
+    "description": "Brand: WhatsApp",
+    "length": "S",
+    "input": "WhatsApp msg ekak danna.",
+    "expected": "WhatsApp msg එකක් දාන්න.",
+    "justification": "Robustness validation",
+    "coveredBy": "Mixed Language - Robustness validation"
+  },
+  {
+    "id": "Neg_Fun_10",
+    "description": "No Input (Empty)",
+    "length": "S",
+    "input": "",
+    "expected": "SHOULD_FAIL_EMPTY",
+    "justification": "Robustness validation",
+    "coveredBy": "Edge Case - Robustness validation"
+  },
+  {
+    "id": "Pos_UI_01",
+    "description": "Real-time update check",
+    "length": "S",
+    "input": "man gedhara yanavaa",
+    "expected": "මං ගෙදර යනවා",
+    "justification": "Real-time output update behavior",
+    "coveredBy": "UI Behavior - Real-time output update behavior"
+  }
+]
